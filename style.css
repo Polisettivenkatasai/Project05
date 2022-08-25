@@ -1,0 +1,98 @@
+body{
+    background: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+ul::before {
+    content: '';
+    background: white;
+    display: block;
+    width: 1px;
+    height: 40px;
+    margin-right: 70px;
+    margin-left: -40px;
+    position: relative;
+    bottom: 5px;
+}
+li.list-item:first-child::after {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(./assets/chevron-down.svg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    position: relative;
+    right: 0px;
+    left: 46px;
+    bottom: 18px;
+}
+nav.navbar {
+    padding: 1px;
+    display: flex;
+    background-color: BLACK;
+    margin: -8px;
+}
+img.logo {
+    width: 84px;
+    padding: 20%;
+    margin-left: 50px;
+}
+ul.list {
+    display: flex;
+    list-style: none;
+    position: relative;
+    left: 100px;
+    top: 13px;
+    font-family: 'Poppins';
+}
+
+li.list-item {
+    margin-right: 85px;
+    color: white;
+}
+button.button-small {
+    background-color: #ba0cc5;
+    width: 136px;
+    height: 35px;
+    border-radius: 9px;
+    font-family: 'Poppins';
+    position: relative;
+    left: 239px;
+    top: 23px;
+}
+.hero {
+    color: white;
+    font-family: 'Poppins';
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 9%;
+}
+h1.hero-heading {
+    width: 60%;
+    text-align: center;
+    font-size: 70px;
+    margin: 0px;
+    line-height: 85px;
+}
+p.hero-description {
+    font-size: 25px;
+    margin: 5px;
+}
+button.button-large {
+    background-color: #ba0cc5;
+    width: 15%;
+    height: 44px;
+    border-radius: 9px;
+    font-family: 'Poppins';
+    border: 0px;
+    font-size: larger;
+    color: white;
+    margin-top: 35px;
+}
